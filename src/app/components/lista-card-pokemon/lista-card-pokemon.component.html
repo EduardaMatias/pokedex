@@ -1,0 +1,7 @@
+<div class="wrapper">
+  <h1>Pokédex</h1>
+  <div class="container">
+    <app-item-card-pokemon *ngFor="let pokemon of pokemonService.pokemons; index as i" [pokemon]="pokemon.name"
+      [numero]="i + 1" ></app-item-card-pokemon>
+  </div>
+</div>

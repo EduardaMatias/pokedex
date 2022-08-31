@@ -1,0 +1,22 @@
+:root {
+  --brightBlack: #6272A4;
+  --brightYellow: #FFCC01;
+  --brightBlue: #395AA8;
+  --body: #21222C;
+}
+
+:root light-mode{
+  --body: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body);
+  font-family: 'Poppins', sans-serif;
+}
+
